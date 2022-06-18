@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+button {
+  font-weight: 700;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.top {
+    background-image: url(./images/bg-hero-mobile.svg);
+    padding: 1.5rem 1rem;
+    background-color: hsl(193, 100%, 96%)
+}
+.btn {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: -1rem;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    box-shadow: 0px 0px 50px -12px rgb(0, 0, 0);
+}
+img {
+    width: 100%;
+}
+.hero-section {
+    text-align: center;
+}
+.title {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+.logo {
+    width: 30%;
+}
+.para {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: hsl(193, 100%, 9%);
+}
+.cta {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.75rem 3.5rem;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 0px 0px 50px -12px rgb(0 0 0 / 0.25);
+    font-family: "Open Sans", sans-serif;
+}
+.hero-image {
+    padding: 3rem 1.5rem;
+}
+.middle {
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+}
+.grow, .user, .flow{
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 50px -12px rgb(0 0 0 / 0.25);
+}
+.user {
+    margin-bottom: 15rem;
+}
+.icn-mockup, .user-mockup, .flow-mockup {
+    width: 60%;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+.icn-text, .user-text, .flow-text {
+    padding-top: 2rem;
+    color: hsl(192, 100%, 9%);
+    padding-bottom: 1rem;
+
+}
+.icon-writeup, .flow-writeup {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -0.2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 1.25px;
+    color: hsl(208, 11%, 55%);
+}
+.user-writeup {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -0.2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1.25px;
+    color: hsl(208, 11%, 55%);
+    font-weight: 400;
+
+}
+.ready {
+    text-align: center;
+    padding:1rem;
+    border: 0px solid black;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: -12%;
+    left: 0%;
+    right: 0%;
+    box-shadow: 0px 0px 50px -12px rgb(0 0 0 / 0.25);
+}
+.cta1 {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.75rem 2.75rem;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size:10px;
+}
+.last-title {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+.last {
+    background-color: hsl(192, 100%, 9%);
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.footer-logo {
+    padding-top: 8rem;
+    
+}
+.location, .location1, .location2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+.location1, .location2 {
+  width: 50%;
+}
+.email-para {
+  margin-right: 9rem;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+    color:white;
+}
+footer {
+    color: white;
+    text-align: center;
+}
+.socials {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.copy {
+    font-size: 10px;
+    text-align: center;
+}
+.socials a {
+  /* font-size: 24px; */
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 7px;
+  opacity: 1;
+  
+}
+.socials a:hover {
+  opacity: 1;
+  color: hsl(322, 100%, 66%);
+}
+ .email-para {
+  padding-right: 9.85rem;
+}
+@media screen and (min-width: 1200px) {
+   .logo {
+    width: 20%;
+    padding-left: 3.5rem;
+   }
+   .top {
+    background-image: url(./images/bg-hero-desktop.svg);
+    padding: 3rem 2rem 1rem 2rem;
+    
+  }
+  .btn {
+    padding: 1rem 3.5rem;
+    border-radius: 25px;
+  }
+  .hero-section {
+    display: flex;
+    padding-top: 1.5rem;
+  }
+  .fst {
+    text-align: left;
+    padding-left: 2rem; 
+    width: 60%;
+  }
+  .title {
+    padding-left: 1rem;
+    width: 500px;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .para {
+    width: 500px;
+    padding-left: 1rem;
+  }
+  .cta-btn {
+    padding-left: 1rem;
+  }
+  .middle {
+    padding: 2rem 4rem 0 4rem;
+    background-color: white;
+  }
+  .grow, .user {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .flow {
+    display: flex;
+  }
+  .icon-writeup, .user-writeup, .flow-writeup {
+    text-align: left;
+    padding-left: 7rem;
+    padding-top: 7rem;
+    width: 450px;
+  }
+  .icn-mockup, .user-mockup {
+    width: 400px;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+  }
+  .flow-mockup {
+    width: 400px;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+  }
+  .flow-writeup {
+    padding-right: 7rem;
+  }
+  .user-writeup {
+    width: 450px;
+  }
+  .ready {
+    top: -20%;
+    right: 30%;
+    left: 30%;
+  }
+  .cta1 {
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.75rem 3.75rem;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size:12px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .last-title {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+}
+  .final {
+    display: flex;
+    justify-content: space-around;
+  }
+  .one {
+    width: 33.3%;
+    padding-left: 2rem;
+  }
+  .email-para {
+    padding-right: 0rem;
+    margin-right: 13rem;
+  }
+  .phone-para {
+    padding-right: 3.5rem;
+  }
+  .two {
+    padding-top: 12.5rem;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem 3.5rem;
+  }
+  .three {
+    padding-top: 10.5rem;
+  }
+  .copy {
+    /* padding-top: 10rem; */
+    margin-top: 16rem;
+    text-align: right;
+    padding-left: 5rem;
+  }
+}
